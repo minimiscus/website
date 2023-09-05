@@ -2,4 +2,4 @@
 
 Coming soon.
 
-[minimiscus.github.io](https://minimiscus.github.io/)
+[minimiscus.tech](https://www.minimiscus.tech/)
