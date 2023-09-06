@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
   <body style="background-color: #121212">
-    <link
-      rel="stylesheet"
-      url="https://fonts.google.com/css?family=Roboto+Mono"
-    />
     <head>
       <title>ace's website</title>
       <link
@@ -24,9 +20,9 @@
     <style>
       @font-face {
         font-family: "Minecraft Seven";
-        src: url("assets/fonts/Minecraft-Seven_v2.woff") format("woff"),
-          url("assets/fonts/Minecraft-Seven_v2.ttf") format("truetype"); /* Needed for browser compatiablity */
+        src: url("assets/fonts/Minecraft-Seven_v2.woff") format("woff");
       }
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); /* Format is woff2 */
       h1 {
         font-family: "Minecraft Seven", Arial, sans-serif;
         font-size: 120px;
@@ -34,7 +30,7 @@
         color: #d7d7d7;
       }
       a {
-        font-family: "Roboto Mono", Arial, sans-serif; /* I'm not sure if Google Fonts is needed. */
+        font-family: "Roboto Mono", Arial, monospace; /* Font family uses Google Fonts: L26 */
         font-size: 20px;
         position: absolute;
         right: 5px;
