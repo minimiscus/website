@@ -2,4 +2,4 @@
 
 Coming soon.
 
-[minimiscus.tech](https://www.minimiscus.tech/)
+[minimiscus.tech](https://minimiscus.tech/)
