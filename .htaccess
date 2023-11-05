@@ -7,5 +7,4 @@ RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.html
 
 # Remove trailing slash at end of URL
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} /(.*)/$
-RewriteRule ^ /%1 [R,L] 
+RewriteRule ^(.*)/$ /$1 [R=301,L]
