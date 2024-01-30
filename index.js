@@ -3,4 +3,7 @@ console.log(
 );
 // secret ooo
 
-document.getElementById("h1").textContent = "Coming soon!";
+document.querySelector(`h1`).textContent = `Coming soon!`;
+
+
+
