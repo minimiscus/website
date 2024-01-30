@@ -1,0 +1,35 @@
+body {
+  background-color: #121212;
+}
+
+a {
+  font-family: "Roboto Mono", Verdana, monospace;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
+a:link,
+a:visited {
+  color: #9c9c9c;
+}
+a:hover,
+a:active {
+  color: #d4d4d4;
+}
+
+h1 {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 90px;
+  text-align: center;
+  color: #d7d7d7;
+}
+
+p {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  color: #d7d7d7;
+}
