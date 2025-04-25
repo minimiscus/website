@@ -1,5 +1,5 @@
-# minimiscus's website
+# minimiscus' website
 
-- now added with *ex* basic javascript and css
+- now with added extremely basic javascript and CSS!
 
 [minimiscus.net](https://minimiscus.net/)
