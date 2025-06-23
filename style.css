@@ -21,14 +21,16 @@ a {
 	position: absolute;
 	right: 10px;
 	top: 0px;
-}
-a:link,
-a:visited {
-	color: #9c9c9c;
-}
-a:hover,
-a:active {
-	color: #d4d4d4;
+	:link,
+	:visited {
+		color: #9c9c9c;
+		text-decoration: none;
+	}
+	:hover,
+	:active {
+		color: #d4d4d4;
+		text-decoration: underline;
+	}	
 }
 
 p {
