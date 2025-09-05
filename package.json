@@ -11,6 +11,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.2",
   "devDependencies": {
-    "sass": "^1.89.2"
+    "sass": "^1.92.0"
   }
 }
