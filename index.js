@@ -1,1 +1,1 @@
-document.querySelector(`h1`).textContent = "maybe coming sooner or later?";
+// just like every good website, this file will be left empty 
