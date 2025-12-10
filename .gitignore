@@ -9,5 +9,9 @@ ehthumbs.db
 Thumbs.db
 
 # IDE-specfic folders #
-###############
+#######################
 .vscode
+
+# Node #
+########
+node_modules
