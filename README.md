@@ -1,3 +1,3 @@
-# minimiscus' networkings
+# minimiscus' website
 
 [minimiscus.net](https://minimiscus.net/)
