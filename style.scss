@@ -23,7 +23,7 @@ We should use this order for properties (so i don't need to harm myself later):
 
 body {
 	background-color: $background-color;
-	word-break: break-all;
+	word-break: break-word;
 }
 
 h1 {
@@ -68,9 +68,7 @@ a {
 }
 
 .imgcentre {
-	display: flex;
-	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
+	display: block;
+	margin: auto;
 	width: 70%;
 }
