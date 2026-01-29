@@ -1,6 +1,6 @@
 // colours for the site
 $primary-color: #9496a0;
-$background-color: #121212;
+$background-color: #1c1d20;
 $link-color: #737582;
 $link-hover-color: #9496a0;
 
@@ -17,7 +17,7 @@ We should use this order for properties (so i don't need to harm myself later):
 
 @font-face {
 	font-family: "Departure Mono";
-	src: url("assets/fonts/DepatureMono-Regular/DepartureMono-Regular.woff2")
+	src: url("/assets/fonts/DepatureMono-Regular/DepartureMono-Regular.woff2")
 		format("woff");
 }
 
