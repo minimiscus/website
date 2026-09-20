@@ -3,54 +3,55 @@ We should use this order for properties (so i don't need to harm myself later):
 
 * font-family
 * font-size
+* font-weight
 * text-align
 * postion (and related properties added below)
 * color (and related properties added below)
 * text-decoration
 */
-@font-face {
-  font-family: "Departure Mono";
-  src: url("/assets/fonts/DepatureMono-Regular/DepartureMono-Regular.woff2") format("woff");
-}
 body {
-  background-color: #1c1d20;
+  background-color: #202028;
   word-break: break-word;
 }
 
 h1 {
-  font-family: "Departure Mono", Verdana, sans-serif;
+  font-family: "neue-haas-grotesk-display", "Arial", sans-serif;
   font-size: 120px;
+  font-weight: 600;
   text-align: center;
-  color: #9496a0;
+  color: #a9acb6;
 }
 
 h2 {
-  font-family: "Departure Mono", Verdana, sans-serif;
+  font-family: "neue-haas-grotesk-display", "Arial", sans-serif;
   font-size: 80px;
+  font-weight: 500;
   text-align: center;
-  color: #9496a0;
+  color: #a9acb6;
 }
 
 p {
-  font-family: "Departure Mono", Verdana, sans-serif;
+  font-family: "neue-haas-grotesk-display", "Arial", sans-serif;
   font-size: 60px;
+  font-weight: 500;
   text-align: center;
-  color: #9496a0;
+  color: #a9acb6;
 }
 
 a {
-  font-family: "Departure Mono", Verdana, sans-serif;
+  font-family: "neue-haas-grotesk-display", "Arial", sans-serif;
   font-size: 20px;
+  font-weight: 400;
   position: absolute;
   right: 10px;
   top: 0px;
 }
 a:link, a:visited {
-  color: #737582;
+  color: #727280;
   text-decoration: underline;
 }
 a:hover, a:active {
-  color: #9496a0;
+  color: #a9acb6;
   text-decoration: underline;
 }
 

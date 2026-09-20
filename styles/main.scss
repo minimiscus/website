@@ -1,10 +1,10 @@
 // colours for the site
 
-// dark
-$primary-dark-color: #9496a0;
-$background-dark-color: #1c1d20;
-$link-dark-color: #737582;
-$link-hover-dark-color: #9496a0;
+// dark, partly inspired from https://www.figma.com/colors/silver/
+$primary-dark-color: #a9acb6;
+$background-dark-color: #202028;
+$link-dark-color: #727280;
+$link-hover-dark-color: #a9acb6;
 
 // light
 $primary-light-color: #464d53;
@@ -17,17 +17,12 @@ We should use this order for properties (so i don't need to harm myself later):
 
 * font-family
 * font-size
+* font-weight
 * text-align
 * postion (and related properties added below)
 * color (and related properties added below)
 * text-decoration
 */
-
-@font-face {
-	font-family: "Departure Mono";
-	src: url("/assets/fonts/DepatureMono-Regular/DepartureMono-Regular.woff2")
-		format("woff");
-}
 
 body {
 	background-color: $background-dark-color;
@@ -35,29 +30,33 @@ body {
 }
 
 h1 {
-	font-family: "Departure Mono", Verdana, sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-size: 120px;
+	font-weight: 600;
 	text-align: center;
 	color: $primary-dark-color;
 }
 
 h2 {
-	font-family: "Departure Mono", Verdana, sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-size: 80px;
+	font-weight: 500;
 	text-align: center;
 	color: $primary-dark-color;
 }
 
 p {
-	font-family: "Departure Mono", Verdana, sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-size: 60px;
+	font-weight: 500;
 	text-align: center;
 	color: $primary-dark-color;
 }
 
 a {
-	font-family: "Departure Mono", Verdana, sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-size: 20px;
+	font-weight: 400;
 	position: absolute;
 	right: 10px;
 	top: 0px;
