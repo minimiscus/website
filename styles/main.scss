@@ -64,7 +64,10 @@ p {
 	@extend %base;
 	font-size: 60px;
 	font-weight: 500;
-	padding: 0rem 10rem;
+	
+	@media screen and (min-width: 1000px) {
+		padding: 0rem 10rem;
+	}
 }
 
 a {

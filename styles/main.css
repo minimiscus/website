@@ -48,7 +48,11 @@ h2 {
 p {
   font-size: 60px;
   font-weight: 500;
-  padding: 0rem 10rem;
+}
+@media screen and (min-width: 1000px) {
+  p {
+    padding: 0rem 10rem;
+  }
 }
 
 a {
