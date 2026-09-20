@@ -1,66 +1,74 @@
 // colours for the site
 
-// dark, partly inspired from https://www.figma.com/colors/silver/
-$primary-dark-color: #a9acb6;
-$background-dark-color: #202028;
-$link-dark-color: #727280;
-$link-hover-dark-color: #a9acb6;
+// alt dark, partly inspired from https://www.figma.com/colors/silver/
+// $background-dark-color: #202028;
+// $primary-dark-color: #a9acb6;
+// $link-dark-color: #727280;
+// $link-hover-dark-color: #a9acb6;
 
-// alt dark
-// $primary-dark-color: #3a333d;
-// $background-dark-color: #504f5c;
-// $link-dark-color: #3a333d;
-// $link-hover-dark-color: #28242a;
+[data-theme="dark"] {
 
-// light
-$primary-light-color: #464d53;
-$background-light-color: #b1b5ba;
-$link-light-color: #65686b;
-$link-hover-light-color: #464d53;
+	--background-color: #504f5c;
+	--text-primary-colour: #3a333d;
+	--text-link-color: #3a333d;
+	--text-hover-color: #302a32;
+
+}
+
+[data-theme="light"] {
+
+	--background-color: #a9acb6;
+	--text-primary-colour: #464d53;
+	--text-link-color: #65686b;
+	--text-hover-color: #464d53;
+
+}
 
 /* 
-We should use this order for properties (so i don't need to harm myself later):
+We should use this order for properties (with the exception when @extend properties is used):
 
 * font-family
 * font-size
 * font-weight
 * text-align
 * postion (and related properties added below)
+* padding (and related properties added below)
 * color (and related properties added below)
 * text-decoration
 */
 
+%base {
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	text-align: center;
+	color: var(--text-primary-colour)
+}
+
 body {
-	background-color: $background-dark-color;
+	background-color: var(--background-color);
 	word-break: break-word;
 }
 
 h1 {
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	@extend %base;
 	font-size: 120px;
 	font-weight: 600;
-	text-align: center;
-	color: $primary-dark-color;
 }
 
 h2 {
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	@extend %base;
 	font-size: 80px;
 	font-weight: 500;
-	text-align: center;
-	color: $primary-dark-color;
 }
 
 p {
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	@extend %base;
 	font-size: 60px;
 	font-weight: 500;
-	text-align: center;
-	color: $primary-dark-color;
+	padding: 0rem 10rem;
 }
 
 a {
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	@extend %base;
 	font-size: 20px;
 	font-weight: 400;
 	position: absolute;
@@ -69,13 +77,13 @@ a {
 
 	&:link,
 	&:visited {
-		color: $link-dark-color;
+		color: var(--text-link-color);
 		text-decoration: underline;
 	}
 
 	&:hover,
 	&:active {
-		color: $link-hover-dark-color;
+		color: var(--text-hover-color);
 		text-decoration: underline;
 	}
 }

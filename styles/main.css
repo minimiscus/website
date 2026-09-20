@@ -1,45 +1,57 @@
+[data-theme=dark] {
+  --background-color: #504f5c;
+  --text-primary-colour: #3a333d;
+  --text-link-color: #3a333d;
+  --text-hover-color: #302a32;
+}
+
+[data-theme=light] {
+  --background-color: #a9acb6;
+  --text-primary-colour: #464d53;
+  --text-link-color: #65686b;
+  --text-hover-color: #464d53;
+}
+
 /* 
-We should use this order for properties (so i don't need to harm myself later):
+We should use this order for properties (with the exception when @extend properties is used):
 
 * font-family
 * font-size
 * font-weight
 * text-align
 * postion (and related properties added below)
+* padding (and related properties added below)
 * color (and related properties added below)
 * text-decoration
 */
+a, p, h2, h1 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  text-align: center;
+  color: var(--text-primary-colour);
+}
+
 body {
-  background-color: #202028;
+  background-color: var(--background-color);
   word-break: break-word;
 }
 
 h1 {
-  font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 120px;
   font-weight: 600;
-  text-align: center;
-  color: #a9acb6;
 }
 
 h2 {
-  font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 80px;
   font-weight: 500;
-  text-align: center;
-  color: #a9acb6;
 }
 
 p {
-  font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 60px;
   font-weight: 500;
-  text-align: center;
-  color: #a9acb6;
+  padding: 0rem 10rem;
 }
 
 a {
-  font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -47,11 +59,11 @@ a {
   top: 0px;
 }
 a:link, a:visited {
-  color: #727280;
+  color: var(--text-link-color);
   text-decoration: underline;
 }
 a:hover, a:active {
-  color: #a9acb6;
+  color: var(--text-hover-color);
   text-decoration: underline;
 }
 
