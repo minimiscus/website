@@ -1,3 +1,1 @@
-# minimiscus' website
-
-[minimiscus.net](https://minimiscus.net/)
+[![minimiscus.net](/assets/images/embed_banner/banner.png)](https://minimiscus.net)
