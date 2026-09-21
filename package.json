@@ -4,5 +4,8 @@
   },
   "allowScripts": {
     "@parcel/watcher@2.6.0": true
+  },
+  "scripts": {
+    "dev": "sass -w styles/main.scss styles/main.css"
   }
 }
